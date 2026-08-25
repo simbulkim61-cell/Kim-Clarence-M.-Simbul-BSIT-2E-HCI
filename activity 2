@@ -1,1 +1,16 @@
+using System;
 
+class Program
+{
+    static void Main()
+    {
+        string firstName = "Kim";
+        int currentAge = 21;
+        double price = 150.50;
+        bool perKilo = price >= 150.50;
+        char storeName = 'A';
+
+        // Outputs your exact sentence form using string interpolation
+        Console.WriteLine($"Hi my name is {firstName} , I am {currentAge} years old. I bought a apple for a price of {price} per kilo. The name of the store is {storeName} and is it {perKilo} for selling a high value");
+    }
+}
